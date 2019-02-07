@@ -1,35 +1,35 @@
 Komendy:
 
 POJEDYŃCZY TASK:
-- Dodaj task:
-node app.js add.task --tag <name> --title <name>
+- Dodaj task:  
+node app.js add.task --tag name --title name
 
-- Uaktualnij task:
-node app.js update.task --id <id> --tag <name> --title <name> --done <true/false>
+- Uaktualnij task:  
+node app.js update.task --id id --tag name --title name --done true/false
 
-- Usuń task:
-node app.js delete.task --id <id>
+- Usuń task:   
+node app.js delete.task --id id
 
 
 CAŁA LISTA TO DO:
-- Wyświetl wszystkie taski:
+- Wyświetl wszystkie taski:  
 node app.js get:todolist
 
-- Wyświetl wszystkie taski o tagach <name>:
-node app.js get:todolist --tag <name> 
+- Wyświetl wszystkie taski o tagach name:  
+node app.js get:todolist --tag name 
 
-- Wyświetl wszystkie ukończone/nieukończone taski:
+- Wyświetl wszystkie ukończone/nieukończone taski:  
 node app.js get:todolist --done true/false
 
-- Wyświetl wszystkie ukończone/nieukończone taski o tagach<name>:
-node app.js get:todolist --tag <name> --title <name>
+- Wyświetl wszystkie ukończone/nieukończone taski o tagachname:  
+node app.js get:todolist --tag name --title name
 
 
 SERVER:
-- Wyślij dane z lokalnego pliku na server:
+- Wyślij dane z lokalnego pliku na server:  
 node app.js server:upload
 
-- Pobierz dane z serwera i uaktualnij lokalny plik
+- Pobierz dane z serwera i uaktualnij lokalny plik  
 node app.js server:download
 
 
